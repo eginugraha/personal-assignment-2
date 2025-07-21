@@ -9,17 +9,17 @@ public class SingleLinkedList {
         size = 0;
     }
 
-    // Validasi input NIM maksimal 10 angka
+    // Validasi input NIM maximum 10 digit
     public boolean isValidNim(String nim) {
         return nim.matches("\\d{1,10}");
     }
 
-    // Validasi input nama maksimal 30 karakter
+    // Validasi input nama maximum 30 karakter
     public boolean isValidNama(String nama) {
         return nama.length() <= 30;
     }
 
-    // Validasi input jurusan maksimal 50 karakter
+    // Validasi input jurusan maximum 50 karakter
     public boolean isValidJurusan(String jurusan) {
         return jurusan.length() <= 50;
     }
@@ -27,19 +27,19 @@ public class SingleLinkedList {
     // Menambahkan data mahasiswa ke linked list
     public boolean push(String nim, String nama, String jurusan) {
         if (size >= 5) {
-            System.out.println("Kapasitas maksimum 5 data telah tercapai!");
+            System.out.println("Kapasitas penuh maximum 5 data!");
             return false;
         }
         if (!isValidNim(nim)) {
-            System.out.println("NIM tidak valid! Maksimal 10 angka.");
+            System.out.println("NIM maximum 10 digit!");
             return false;
         }
         if (!isValidNama(nama)) {
-            System.out.println("Nama tidak valid! Maksimal 30 karakter.");
+            System.out.println("Nama maximum 30 karakter!");
             return false;
         }
         if (!isValidJurusan(jurusan)) {
-            System.out.println("Jurusan tidak valid! Maksimal 50 karakter.");
+            System.out.println("Jurusan maximum 50 karakter!");
             return false;
         }
 
