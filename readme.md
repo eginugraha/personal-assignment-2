@@ -1,6 +1,6 @@
-# Program Inventaris Barang
+# Program Data Mahasiswa
 
-Program ini merupakan program manajemen data mahasiswa menggunakan stuktur data linear **Singly Linked List**. Program ini memiliki fitur push, traversal dan pop data mahasiswa. Program ini terdiri dari 3 class, diantaranya: `SingleLinkedList`, `Mahasiswa`, dan `MahasiswaApp`.
+Program ini merupakan program data mahasiswa menggunakan stuktur data linear **Singly Linked List**. Program ini memiliki fitur push, traversal dan pop data mahasiswa. Program ini terdiri dari 3 class, diantaranya: `SingleLinkedList`, `Mahasiswa`, dan `MahasiswaApp`.
 
 ---
 ### Features
