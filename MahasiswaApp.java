@@ -7,6 +7,11 @@ public class MahasiswaApp {
         SingleLinkedList list = new SingleLinkedList();
         int choice = 0;
 
+        // Tambah seeder data mahasiswa
+        list.push("2802597854", "Egi Nugraha", "Computer Science");
+        list.push("1122334455", "Celline Dion", "Information Technology"); 
+        list.push("0987654321", "Thom York", "System Information");
+
         do {
             System.out.println("\n=== Program Singly Linked List Data Mahasiswa ===");
             System.out.println("1. Push Data Mahasiswa");
